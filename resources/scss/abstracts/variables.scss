@@ -1,0 +1,27 @@
+/*
+  COLORS
+*/
+
+$color-white: rgb(242, 242, 242);
+$color-light-grey: rgb(168, 168, 168);
+
+$color-charcoal-light: rgb(51, 66, 77);
+$color-charcoal-dark: rgb(21, 26, 30);
+$color-teal: teal;
+$color-purple: purple;
+
+$color-gradient-tealpurple: linear-gradient(teal, purple);
+$color-gradient-tealpurple--rot90: linear-gradient(90deg, teal, purple);
+
+/*
+  TRANSITIONS
+*/
+
+$transition-standard: all 0.3s;
+$transition-long: all 0.5s;
+
+/*
+  SCREEN SIZES
+*/
+
+$screen-sm: 90rem;

@@ -1,0 +1,9 @@
+/*
+    Main scss file that loads all partial files for compilation
+*/
+
+@import "abstracts/variables";
+
+@import "core/typography";
+@import "core/reset";
+@import "core/utilities";
