@@ -11,6 +11,7 @@
                 width="2000"
                 height="2024"
                 viewBox="0 0 2000 2024"
+                aria-label="website branding"
             >
                 <g
                     transform="matrix(1,0,0,1,1.767868852458946,0.8194331983804659)"
@@ -23,6 +24,7 @@
                         width="2000"
                         xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink"
+                        aria-label="website branding"
                     >
                         <g
                             id="tight-bounds"
@@ -32,13 +34,15 @@
                                 viewBox="0 0 244.43135999999998 247.2"
                                 height="247.2"
                                 width="244.43135999999998"
+                                aria-label="website branding"
                             >
-                                <g><svg></svg></g>
+                                <g><svg aria-label="website branding"></svg></g>
                                 <g>
                                     <svg
                                         viewBox="0 0 244.43135999999998 247.2"
                                         height="247.2"
                                         width="244.43135999999998"
+                                        aria-label="website branding"
                                     >
                                         <g
                                             transform="matrix(1,0,0,1,0,50.81751242685026)"
@@ -47,24 +51,28 @@
                                                 viewBox="0 0 244.43135999999998 145.56497514629947"
                                                 height="145.56497514629947"
                                                 width="244.43135999999998"
+                                                aria-label="website branding"
                                             >
                                                 <g>
                                                     <svg
                                                         viewBox="0 0 244.43135999999998 145.56497514629947"
                                                         height="145.56497514629947"
                                                         width="244.43135999999998"
+                                                        aria-label="website branding"
                                                     >
                                                         <g>
                                                             <svg
                                                                 viewBox="0 0 244.43135999999998 145.56497514629947"
                                                                 height="145.56497514629947"
                                                                 width="244.43135999999998"
+                                                                aria-label="website branding"
                                                             >
                                                                 <g>
                                                                     <svg
                                                                         viewBox="0 0 244.43135999999998 145.56497514629947"
                                                                         height="145.56497514629947"
                                                                         width="244.43135999999998"
+                                                                        aria-label="website branding"
                                                                     >
                                                                         <g
                                                                             id="textblocktransform"
@@ -74,12 +82,14 @@
                                                                                 height="145.56497514629947"
                                                                                 width="244.43135999999998"
                                                                                 id="textblock"
+                                                                                aria-label="website branding"
                                                                             >
                                                                                 <g>
                                                                                     <svg
                                                                                         viewBox="0 0 244.43135999999998 145.56497514629947"
                                                                                         height="145.56497514629947"
                                                                                         width="244.43135999999998"
+                                                                                        aria-label="website branding"
                                                                                     >
                                                                                         <g
                                                                                             transform="matrix(1,0,0,1,0,0)"
@@ -89,6 +99,7 @@
                                                                                                 viewBox="1.2 -34.6 58.099999999999994 34.6"
                                                                                                 height="145.56497514629947"
                                                                                                 data-palette-color="#ffffff"
+                                                                                                aria-label="website branding"
                                                                                             >
                                                                                                 <path
                                                                                                     d="M5 0L1.2 0 10.7-34.6 19.1-34.6 28.6 0 24.8 0 22.3-8.9 7.5-8.9 5 0ZM16.2-31.3L13.6-31.3 8.35-12.35 21.45-12.35 16.2-31.3ZM59.3 0L55.5 0 55.5-15.65 37.9-15.65 37.9 0 34.05 0 34.05-34.6 37.9-34.6 37.9-19.1 55.5-19.1 55.5-34.6 59.3-34.6 59.3 0Z"
@@ -140,21 +151,31 @@
         <nav>
             <ul>
                 <li>
-                    <a href="https://github.com/ajhay709" target="_blank">
+                    <a
+                        href="https://github.com/ajhay709"
+                        target="_blank"
+                        aria-label="link to authors github profile"
+                    >
                         <font-awesome-icon
                             :icon="['fab', 'github']"
                             class="fa-brand"
                     /></a>
                 </li>
                 <li>
-                    <a href="mailto:ajhay709@gmail.com" target="_blank"
+                    <a
+                        href="mailto:ajhay709@gmail.com"
+                        target="_blank"
+                        aria-label="link to mail host provider"
                         ><font-awesome-icon
                             :icon="['fas', 'envelope']"
                             class="fa-brand"
                     /></a>
                 </li>
                 <li>
-                    <a href="/ahay-cv-pdf" target="_blank"
+                    <a
+                        href="/ahay-cv-pdf"
+                        target="_blank"
+                        aria-label="link to authors resume/cv"
                         ><font-awesome-icon
                             :icon="['fas', 'file']"
                             class="fa-brand"
