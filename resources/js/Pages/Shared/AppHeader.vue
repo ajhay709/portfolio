@@ -176,10 +176,12 @@
                         href="/ahay-cv-pdf"
                         target="_blank"
                         aria-label="link to authors resume/cv"
-                        ><font-awesome-icon
+                        class="link--gradient"
+                        ><!-- <font-awesome-icon
                             :icon="['fas', 'file']"
                             class="fa-brand"
-                    /></a>
+                    /> -->CV</a
+                    >
                 </li>
             </ul>
         </nav>
@@ -220,6 +222,7 @@ export default {
                 display: flex;
                 gap: 2.4rem;
                 list-style: none;
+                align-items: center;
 
                 li {
                     font-size: 2.8rem;
@@ -227,6 +230,13 @@ export default {
 
                     @media screen and (max-width: $screen-sm) {
                         font-size: 2rem;
+                    }
+                }
+
+                li:last-of-type:hover {
+                    a {
+                        text-decoration: none;
+                        color: $color-white;
                     }
                 }
             }
