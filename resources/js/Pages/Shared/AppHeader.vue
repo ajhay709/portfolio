@@ -177,10 +177,7 @@
                         target="_blank"
                         aria-label="link to authors resume/cv"
                         class="link--gradient"
-                        ><!-- <font-awesome-icon
-                            :icon="['fas', 'file']"
-                            class="fa-brand"
-                    /> -->CV</a
+                        >CV</a
                     >
                 </li>
             </ul>
