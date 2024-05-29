@@ -1,0 +1,21 @@
+{
+  "public/custom-border-color.svg": {
+    "file": "assets/custom-border-color-3a24fd7c.svg",
+    "src": "public/custom-border-color.svg"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app-4a7ad1bc.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/app.js": {
+    "assets": [
+      "assets/custom-border-color-3a24fd7c.svg"
+    ],
+    "css": [
+      "assets/app-4a7ad1bc.css"
+    ],
+    "file": "assets/app-bdbde1c7.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}
